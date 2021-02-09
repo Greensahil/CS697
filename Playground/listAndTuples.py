@@ -64,11 +64,48 @@ l1.sort()
 l1.remove(4)
 
 #By index and it also returns the value that was removeed
-print(li.pop(1))
+print(l1.pop(1))
 
 print(l1)
 
 
 #list are mutable so to copy youcannot do
 #l2 = l1
+
+#method 1
+#l2 =[]
+#l2 = l2 + l1
+
+#method 2
+#l2=l1[::]
+
+#method 3
 #you can create a loop to copy each element
+
+#to copy list from l1.extend() l1.append() will not work
+
+#to square each item and create in a different 
+# newList = [len(item) for item in list1]
+
+# newList = [item for item in list1 if item < 10 ] 
+
+#l2 = [item for item in range(1001) if 3 in str(item)]
+
+#l2 = [item for item in years if year % 4 ==0 and year % 100! = 0]
+
+print("Random numbers")
+import random
+
+#Both starts and stop are both inclusive
+print(random.randint(0,100))
+
+#More customixation with step. All even numbers
+print(random.randint(0,100))
+
+for i in range(10):
+    print(random.randint(0,10))
+
+
+rlist = [random.randint(0,10) for i in range(10)]
+slist = random.sample(range(0,100),10) #unique number
+print(rlist)
