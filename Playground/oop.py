@@ -23,7 +23,7 @@ print(c1.getArea())
 
 class Account:
     numAccounts = 0
-    def __init__(self, balance = 0):
+    def __init__(self, *locations):
         self.balance = balance
         Account.numAccounts +=1   #saying account because we want this to be shared between all instances of the class
     
