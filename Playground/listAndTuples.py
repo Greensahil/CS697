@@ -106,6 +106,10 @@ for i in range(10):
     print(random.randint(0,10))
 
 
+
 rlist = [random.randint(0,10) for i in range(10)]
 slist = random.sample(range(0,100),10) #unique number
 print(rlist)
+
+
+

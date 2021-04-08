@@ -39,3 +39,13 @@ count = 0
 l2= [item  for item in string if item == " " ]
 
 l2 = " ".join([item for item in string if item not in "a,e,i,o,u".split(",")])
+
+[item  for item in string.split(" ") if len(item) < 4 ]
+
+[item  for item in range(1,1001) if "3" in str(item)]
+
+
+[random.randInt(1,500) for item in range(10)]
+
+radmon.randInt
+random.sample()
